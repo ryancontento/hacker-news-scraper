@@ -8,7 +8,7 @@ parsed = BeautifulSoup(res.text, 'html.parser')
 parsed2 = BeautifulSoup(res2.text, 'html.parser')
 
 links = parsed.select('.titleline > a') 
-subtext = parsed.select('.subtext')
+subtext = parsed.select('.subtext') 
 links2 = parsed2.select('.titleline > a') 
 subtext2 = parsed2.select('.subtext')
 
